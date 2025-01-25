@@ -57,6 +57,14 @@ I re-learnt how to  create a repo on github and clone it on the mchine locally a
 
 I also learnt how to make my website live on a github
 
+i learnt how to make a files body and html expand the full height of a page. Below is how to do it
+
+```css
+html, 
+body {
+  height: 100%;
+}
+```
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
