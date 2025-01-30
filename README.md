@@ -83,10 +83,100 @@ body {
  ```  
  with what is in the brackets it can either be max-width or min-width which max-width stands for screens at the given size like say 400px and below and the min-width is vice versa
 
+ 7) I have also learnt about accessibility (this is mainly for disabled people and also benefits abled people) of web pages and gone through a few of the WCAG which stands for web content acessibilty guidlines. There are 4 main principles which are abbreviated POUR: 
+ 
+ Percievable: eg is content should be able to be seen easily... like a text should be on abackgroung that makes it readable.
+
+ Opearable: eg is websites should not only be operable or navigatable by mouse but also keyboard so people who for example cant see the mouse cursor will be able to navigate the website through the keyboard and screen reader.
+
+ Understandable: eg is a website should not bee to complex for a user to understand what is going on... like a when a user inputs a wrong email and password and a feedback of "#Error 2219" is given it will be difficult for  the user to understand what is going on. To make it   more understandable a feedback of "wrong email or password" is more understandable by the user.
+
+ Robust: means your website should work well with today's assistive tools (like screen readers) and still work in the future as technology improves. Basically, build it in a way that won't break when new browsers or accessibility tools come out.
+
+ Under accessibility i also learnt HTML landmarks and ARIA landmarks which basically helps assistive technology like screen Readers to help disabled people navigate pages 
+ The most preferred and widly used is HTML land marks but ARIA landmarks can also be used in place of the latter.
+
+ HTML landmarks:
+ ```html
+ <header>
+  <!-- as the name goes it is for the introductory content of a webpage and it can be used multiple times -->
+ </header>
+
+<nav>
+  <!-- used for navigation section of a website. can be repeated in like in the header, footer or even the side bar  -->
+</nav>
+
+ <main>
+  <!-- used for the main content of the page. cannot be repeated -->
+ </main>
+
+<footer>
+  <!-- used for footer content like copyright info, terms of service, etc -->
+</footer>
+
+<section> 
+  <!-- used for a section of content -->
+</section>
+
+<form>
+  <!-- used for forms -->
+</form>
+
+<table> 
+  <!-- used for tables -->
+</table>
+
+<figure>
+  <!-- used for media like images, charts or diagrams... usually used along side <figcaption> which describes the media in words this is how they looks put together:
+    <figure>
+      <img src >
+      <figcaption>a text describing the above image</figcaption>
+    </figure>
+    . can be repeated many times -->
+</figure>
+
+<figcaption>
+<!-- check <figure> -->
+</figcaption>
+
+<aside>
+  <!-- used for extra information that is related to the main content but not the main focus. Think of it like a sidebar or extra notes on a webpage.  -->
+</aside>
+
+<address>
+  <!-- used for addresses, phone number, email address, etc -->
+</address>
+
+<article>
+  <!-- used for blogs, news story, product listing... more of like a self contained piece of content -->
+</article>
+
+<mark>
+  <!-- used to make emphasis on something -->
+</mark>
+
+```
+
+Some ARIA landmarks:
+```html
+
+
+NB: used in place of HTML landmarks
+
+role ="navigation"  this is for <nav>
+role="main"   this is for  <main>
+role="banner"  this is for  <header>          
+role="complementary"  this is for <aside>
+role="contentinfo"   this is for <footer>
+role="form"  this is for <form>
+role="region"  this is for <section>
+
+ ```
+ I dont fully understand the ARIA landmarks yet
 
 ### Continued development
-1) i want to know more of media queries
-
+1) I want to know more of media queries
+2) I dont fully understand the ARIA landmarks yet
 
 ### Useful resources
 
