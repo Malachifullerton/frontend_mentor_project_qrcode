@@ -28,6 +28,10 @@ html {
     gap: 5px;
 }
 
+h2 {
+    display: none;
+}
+
 
 .image-text {
     display: flex;
@@ -69,6 +73,10 @@ img {
    border-radius: 10px;
    margin: 0 16px;
   
+}
+
+figcaption {
+    display: none;
 }
 
 @media (max-width: 375px){

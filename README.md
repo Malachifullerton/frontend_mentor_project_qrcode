@@ -93,10 +93,18 @@ body {
 
  Robust: means your website should work well with today's assistive tools (like screen readers) and still work in the future as technology improves. Basically, build it in a way that won't break when new browsers or accessibility tools come out.
 
- Under accessibility i also learnt HTML landmarks and ARIA landmarks which basically helps assistive technology like screen Readers to help disabled people navigate pages 
- The most preferred and widly used is HTML land marks but ARIA landmarks can also be used in place of the latter.
+ Under accessibility i also learnt HTML landmarks and ARIA landmarks which basically helps assistive technology like screen Readers to help disabled people navigate pages. 
+ Use HTML landmarks by default but ARIA landmarks can also be used in place of the latter if you are for example forced to use div instead of nav ... eg:
+  ```html
+  <div role="navigation">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</div>
+  ```
 
- HTML landmarks:
+ Some HTML landmarks:
  ```html
  <header>
   <!-- as the name goes it is for the introductory content of a webpage and it can be used multiple times -->
