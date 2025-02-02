@@ -85,7 +85,7 @@ body {
 
  7) I have also learnt about accessibility (this is mainly for disabled people and also benefits abled people) of web pages and gone through a few of the WCAG which stands for web content acessibilty guidlines. There are 4 main principles which are abbreviated POUR: 
  
- Percievable: eg is content should be able to be seen easily... like a text should be on abackgroung that makes it readable.
+ Percievable: eg is content should be able to be seen easily... like a text should be on a backgroung that makes it readable.
 
  Opearable: eg is websites should not only be operable or navigatable by mouse but also keyboard so people who for example cant see the mouse cursor will be able to navigate the website through the keyboard and screen reader.
 
@@ -188,8 +188,8 @@ role="region"  this is for <section>
 
 ### Useful resources
 
-- [resource 1](https://www.youtube.com/watch?v=lkDrG7G77Fg) - This helped me with using new fonts in css. I really liked the pattern .
-- [ resource 2](https://www.youtube.com/watch?v=P_vkS4UJNDk) - This is an amazing article which helped me  understand the basics of css media queries. I'd recommend it to anyone still learning this concept.
+
+- [ resource 1](https://www.youtube.com/watch?v=P_vkS4UJNDk) - This is an amazing article which helped me  understand the basics of css media queries. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
